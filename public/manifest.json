@@ -1,0 +1,15 @@
+{
+  "short_name": "Classic American",
+  "name": "Classic American Restaurant",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#C41E3A",
+  "background_color": "#F5F5DC"
+}

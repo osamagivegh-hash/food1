@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-warm-red hover:bg-deep-red text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-warm-red text-warm-red hover:bg-warm-red hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-warm-red to-gold bg-clip-text text-transparent;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 transform hover:scale-105 hover:shadow-2xl;
+  }
+}
