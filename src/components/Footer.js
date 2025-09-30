@@ -23,10 +23,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'Facebook', icon: '📘', href: '#' },
-    { name: 'Instagram', icon: '📷', href: '#' },
-    { name: 'Twitter', icon: '🐦', href: '#' },
-    { name: 'Yelp', icon: '⭐', href: '#' }
+    { name: 'Facebook', icon: '📘', href: 'https://facebook.com' },
+    { name: 'Instagram', icon: '📷', href: 'https://instagram.com' },
+    { name: 'Twitter', icon: '🐦', href: 'https://twitter.com' },
+    { name: 'Yelp', icon: '⭐', href: 'https://yelp.com' }
   ];
 
   const contactInfo = [
@@ -211,15 +211,15 @@ const Footer = () => {
               viewport={{ once: true }}
               className="flex space-x-6 text-sm"
             >
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors duration-300">
+              <button className="text-gray-400 hover:text-gold transition-colors duration-300 cursor-pointer">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors duration-300">
+              </button>
+              <button className="text-gray-400 hover:text-gold transition-colors duration-300 cursor-pointer">
                 Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors duration-300">
+              </button>
+              <button className="text-gray-400 hover:text-gold transition-colors duration-300 cursor-pointer">
                 Accessibility
-              </a>
+              </button>
             </motion.div>
           </div>
         </div>
